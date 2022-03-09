@@ -1,0 +1,22 @@
+<!--файл представление-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello</title>
+</head>
+<body>
+Hello
+
+<!--ссылка на др стр-->
+<a href="goodbye.html">Say goodbye</a>
+<!--ссылка на др стр-->
+or <a href="/exit">Exit</a>
+<!--при нажатии на сслку осущь get запрос по указ адресу, в котором мы так же можем указ доп параметры-->
+or <a href="/first/hello?name=Tom&surname=Jone">Request with paramatrs</a>
+<!--обращаемся к модели по ключу message, выводим значение по ключу-->
+<p th:text="${message}"></p>
+
+
+</body>
+</html>
